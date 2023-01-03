@@ -31,6 +31,8 @@ body {
   border-radius: 20%;
 }
 
+/* Adding colors to tiles */
+
 .green {
   background-color: green;
 }
@@ -47,7 +49,9 @@ body {
   background-color: blue;
 }
 
+/* Styles to be used in .js */
+
 .pressed {
-    box-shadow: 0 0 20px white;
-    background-color: grey;
-  }
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
