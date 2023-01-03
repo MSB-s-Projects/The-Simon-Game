@@ -1,17 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Meta Tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Links -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
 
     <!-- Title -->
     <title>The Simon Game</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <h1 class="game-screen">Press A Key to Start</h1>
+
+    <div class="container">
+      <div class="row">
+        <div type="button" id="green" class="tile green" style>
+             
+        </div>
+        <div type="button" id="red" class="tile red">
+             
+        </div>
+      </div>
+      <div class="row">
+        <div type="button" id="yellow" class="tile yellow">
+             
+        </div>
+        <div type="button" id="blue" class="tile blue">
+             
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="game.js"></script>
+  </body>
 </html>
