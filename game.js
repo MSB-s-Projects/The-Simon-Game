@@ -91,7 +91,7 @@ function checkAnswer(currentLevel) {
     $("body").addClass("game-over");
     setTimeout(function () {
       $("body").removeClass("game-over");
-    });
+    },200);
 
     // changing the text of h1
     $("h1").text("Game Over, Press Any Key to Restart");
